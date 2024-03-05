@@ -20,15 +20,73 @@
 ul li{
     width: 14px;
 }
-.header{
-    width: 100%;
-    gap: 15px;
-    padding-top: 14px;
-    font-weight: bold;
-    align-items: center;
-    padding: 23px 14px;
-    font-size: 13px;
+.right{
+    width: 75vw;
+    margin: 16px 0;
 }
-.header img{
-    width: 30px;
+.header{
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+}.header >*{
+    padding: 20px;
+}
+.signupbtn{
+    background-color: black;
+    color:rgb(156 148, 148);
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.signupbtn:hover{
+    font-size: 17px;
+    color: white;
+}
+.btn >*{
+    margin: 0 12px;
+}
+.loginbtn{
+    background-color:white ;
+    color: black;
+    padding:12px ;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 21px;
+    cursor: pointer;
+}
+.loginbtn:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+.cardcontainer{
+    margin: 30px;
+    gap: 10px;
+    overflow-y: auto;
+    max-height: 60vh;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+    transition: all .9s;
+
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    padding-top: 10px;
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-track{
+    background-color: #222;
 }

@@ -26,10 +26,37 @@
 .p-1{
     padding: 10px;
 }
+.heading{
+    width: 100%;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+    padding: 23px 14px;
+    font-size: 13px;
+}
+.heading img{
+    width: 30px;
+}
 ul li{
     width: 14px;
     list-style: none;
     gap: 15px;
     padding-top: 14px;
     font-size: bold;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+}
+.footer{
+    gap: 12px;
+    font-size: 10px;
+    color: grey;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+.footer a{
+    color: grey;
 }
