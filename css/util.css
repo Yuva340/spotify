@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+.jc{
+    justify-content: center;
+}
+.ic{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+ul li{
+    width: 14px;
+    list-style: none;
+    gap: 15px;
+    padding-top: 14px;
+    font-size: bold;
+}
